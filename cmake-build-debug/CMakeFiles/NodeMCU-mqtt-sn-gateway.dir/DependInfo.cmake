@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "F_CPU=80000000L"
   "ICACHE_FLASH"
   "LWIP_OPEN_SRC"
-  "PLATFORMIO=30201"
+  "PLATFORMIO=30401"
   "__ets__"
   )
 
@@ -27,11 +27,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/bele/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip/include"
   "/home/bele/.platformio/packages/framework-arduinoespressif8266/cores/esp8266"
   "/home/bele/.platformio/packages/framework-arduinoespressif8266/variants/nodemcu"
+  "../src"
   "/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src"
-  "../lib/core-mqtt-sn-gateway/src"
   "/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/SPI"
   "/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src"
-  "../src"
+  "../lib/core-mqtt-sn-gateway/src"
+  "../lib/Implementation"
   "/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA"
   "/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src"
   "/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM"
@@ -55,6 +56,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/bele/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include"
   "/home/bele/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include"
   "/home/bele/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed"
+  "/home/bele/.platformio/packages/tool-unity"
   )
 
 # Targets to which this target links.

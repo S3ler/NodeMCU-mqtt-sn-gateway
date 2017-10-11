@@ -129,7 +129,7 @@
 					<Add option="-DF_CPU=80000000L"/>
 					<Add option="-D__ets__"/>
 					<Add option="-DICACHE_FLASH"/>
-					<Add option="-DPLATFORMIO=30201"/>
+					<Add option="-DPLATFORMIO=30401"/>
 					<Add option="-DESP8266"/>
 					<Add option="-DARDUINO_ARCH_ESP8266"/>
 					<Add option="-DARDUINO_ESP8266_NODEMCU"/>
@@ -137,11 +137,12 @@
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip/include"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/cores/esp8266"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/variants/nodemcu"/>
+					<Add directory="/home/bele/mqttsngit/NodeMCU-mqtt-sn-gateway/src"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src"/>
-					<Add directory="/home/bele/mqttsngit/NodeMCU-mqtt-sn-gateway/lib/core-mqtt-sn-gateway/src"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/SPI"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src"/>
-					<Add directory="/home/bele/mqttsngit/NodeMCU-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/NodeMCU-mqtt-sn-gateway/lib/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/NodeMCU-mqtt-sn-gateway/lib/Implementation"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM"/>
@@ -165,6 +166,7 @@
 					<Add directory="/home/bele/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include"/>
 					<Add directory="/home/bele/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include"/>
 					<Add directory="/home/bele/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed"/>
+					<Add directory="/home/bele/.platformio/packages/tool-unity"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -193,7 +195,7 @@
 					<Add option="-DF_CPU=80000000L"/>
 					<Add option="-D__ets__"/>
 					<Add option="-DICACHE_FLASH"/>
-					<Add option="-DPLATFORMIO=30201"/>
+					<Add option="-DPLATFORMIO=30401"/>
 					<Add option="-DESP8266"/>
 					<Add option="-DARDUINO_ARCH_ESP8266"/>
 					<Add option="-DARDUINO_ESP8266_NODEMCU"/>
@@ -201,11 +203,12 @@
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip/include"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/cores/esp8266"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/variants/nodemcu"/>
+					<Add directory="/home/bele/mqttsngit/NodeMCU-mqtt-sn-gateway/src"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src"/>
-					<Add directory="/home/bele/mqttsngit/NodeMCU-mqtt-sn-gateway/lib/core-mqtt-sn-gateway/src"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/SPI"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src"/>
-					<Add directory="/home/bele/mqttsngit/NodeMCU-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/NodeMCU-mqtt-sn-gateway/lib/core-mqtt-sn-gateway/src"/>
+					<Add directory="/home/bele/mqttsngit/NodeMCU-mqtt-sn-gateway/lib/Implementation"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src"/>
 					<Add directory="/home/bele/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM"/>
@@ -229,6 +232,7 @@
 					<Add directory="/home/bele/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include"/>
 					<Add directory="/home/bele/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include"/>
 					<Add directory="/home/bele/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed"/>
+					<Add directory="/home/bele/.platformio/packages/tool-unity"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>

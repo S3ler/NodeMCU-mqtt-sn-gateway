@@ -1,1 +1,1 @@
-/home/bele/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++   -g   CMakeFiles/NodeMCU-mqtt-sn-gateway.dir/src/main/main.cpp.o  -o NodeMCU-mqtt-sn-gateway -rdynamic 
+/home/bele/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  -g  -rdynamic CMakeFiles/NodeMCU-mqtt-sn-gateway.dir/src/main/main.cpp.o  -o NodeMCU-mqtt-sn-gateway 
